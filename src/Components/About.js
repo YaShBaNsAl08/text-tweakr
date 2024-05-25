@@ -40,14 +40,10 @@ function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              <strong>This is the first item's accordion body.</strong> It is
-              shown by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              With <strong>TextTweakr</strong>, you can quickly analyze your
+              text to get insights such as word count, character count, and
+              estimated reading time. Our real-time text summary updates as you
+              type, giving you immediate feedback on your writing.
             </div>
           </div>
         </div>
@@ -71,14 +67,10 @@ function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              <strong>This is the second item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              We believe that powerful text manipulation tools should be
+              accessible to everyone. That's why TextTweakr is completely free
+              to use. No hidden fees, no subscriptions, just pure text tweaking
+              goodness.
             </div>
           </div>
         </div>
@@ -93,7 +85,7 @@ function About(props) {
               aria-expanded="false"
               aria-controls="collapseThree"
             >
-              Browser Compatibile
+              Features
             </button>
           </h2>
           <div
@@ -102,14 +94,53 @@ function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              <strong>This is the third item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. You can modify any of this with custom CSS or
-              overriding our default variables. It's also worth noting that just
-              about any HTML can go within the <code>.accordion-body</code>,
-              though the transition does limit overflow.
+              <p>
+                <strong>Convert to Uppercase:</strong> Easily convert all your
+                text to uppercase with just one click.
+              </p>
+              <p>
+                <strong>Convert to Lowercase:</strong> Change all your text to
+                lowercase effortlessly.
+              </p>
+              <p>
+                <strong>Remove Extra Spaces:</strong> Clean up your text by
+                removing unnecessary spaces.
+              </p>
+              <p>
+                <strong>Clear Text:</strong> Start fresh by clearing all the
+                text in the input box.
+              </p>
+              <p>
+                <strong>Copy Text:</strong> Quickly copy the modified text to
+                your clipboard.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="accordion-item">
+          <h2 className="accordion-header">
+            <button
+              className="accordion-button collapsed"
+              style={myStyle}
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="false"
+              aria-controls="collapseFour"
+            >
+              Browser Compatibile
+            </button>
+          </h2>
+          <div
+            id="collapseFour"
+            className="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div className="accordion-body" style={myStyle}>
+              Our tool is designed to work seamlessly across all modern web
+              browsers. Whether you are using Chrome, Firefox, Safari, or Edge,
+              you can enjoy the full functionality of
+              <strong>TextTweakr</strong> without any compatibility issues.
             </div>
           </div>
         </div>
